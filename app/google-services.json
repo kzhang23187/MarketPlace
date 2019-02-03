@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565603135980",
+    "firebase_url": "https://agco-a2421.firebaseio.com",
+    "project_id": "agco-a2421",
+    "storage_bucket": "agco-a2421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565603135980:android:c697ae6a93d8a492",
+        "android_client_info": {
+          "package_name": "com.example.marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565603135980-4dbrvu44138umedteru8ofh95pvjkfkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marketplace",
+            "certificate_hash": "ebe7fd9d1713cb438d77b51055cec3682b0fd925"
+          }
+        },
+        {
+          "client_id": "565603135980-2c8pttasf7tvjcr3fad6mvm7eobur6kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Hmh-7DMSiR0LTJLHFVf05pAxyfxrUB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565603135980-2c8pttasf7tvjcr3fad6mvm7eobur6kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -63,16 +63,16 @@ public class Product {
      * @param description the description of the product.
      * @param type the type of the product.
      * @param price the price of the product.
-     * @param imageFile the download url of the image of the product.
+     * @param image_url the download url of the image of the product.
      */
-    public static void createProduct(int year, int month, String contact, String name, String condition, String description, String type, int price, String imageFile) {
+    public static void createProduct(int year, int month, String contact, String name, String condition, String description, String type, int price, String image_url) {
         Map<String, Object> product = new HashMap<>();
         product.put("name", name);
         product.put("condition", condition);
         product.put("description", description);
         product.put("type", type);
         product.put("price", price);
-        product.put("image", imageFile);
+        product.put("image", image_url);
         product.put("contact", contact);
         product.put("year", year);
         product.put("month", month);

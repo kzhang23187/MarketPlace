@@ -25,12 +25,11 @@ public class User {
      * @param phone    user phone
      * @param location user location
      */
-    public static void createUser(String id, String name, String email, String phone, String location) {
+    public static void createUser(String id, String name, String email, String phone) {
         Map<String, Object> user = new HashMap<>();
         user.put("name", name);
         user.put("email", email);
         user.put("phone", phone);
-        user.put("location", location);
         db.collection("users").document(id).set(user);
     }
     /**
